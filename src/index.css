@@ -74,24 +74,31 @@ a:hover {
 
 @font-face {
   font-family: 'Neue Machina';
-  src: url('/NeueMachina-Light.otf') format('opentype');
+  src: url('NeueMachina-Light.woff2') format('woff2'),
+      url('NeueMachina-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Neue Machina';
-  src: url('/NeueMachina-Regular.otf') format('opentype');
-  font-weight: 400; 
+  src: url('NeueMachina-Regular.woff2') format('woff2'),
+      url('NeueMachina-Regular.woff') format('woff');
+  font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Neue Machina';
-  src: url('/NeueMachina-UltraBold.otf') format('opentype');
-  font-weight: 800; 
+  src: url('NeueMachina-Ultrabold.woff2') format('woff2'),
+      url('NeueMachina-Ultrabold.woff') format('woff');
+  font-weight: bold;
   font-style: normal;
+  font-display: swap;
 }
+
 
 @media (max-width: 700px) {
   .sec-title {
