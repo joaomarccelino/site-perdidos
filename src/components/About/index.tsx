@@ -10,7 +10,7 @@ const About = () => {
         <div className="about-text">
           <h2 className='sec-title'>quem somos nós</h2>
           <p className='about-body-text'>Nascida em São Miguel Arcanjo, PERDIDOS mescla sua origem de ritmos brasileiros com elementos do indie rock, incorporando cavaco e guitarra baiana em suas composições Formada por Antonio Estevam (cavacoe guitarra baiana), João Auro (bateria) e João Lucas (baixo e voz), juntos trazem bagagens de festivais até a mistura de referências musicais. O EP de estreia, intitulado de ''Azul'' contempla com quatro faixas que contam experiências de amizades e amores trazendo desde ijexá pop a um baião melancólico, produzindo uma sonoridade única e envolvente. Em seu segundo EP, “Todo Tempo, o Tempo Todo” a banda mergulha fundo explorando temas como relacionamentos, amizades e nos vários significados da palavra “Tempo”.</p>
-          <a href="/" className='about-btn'>NOS CONTRATE</a>
+          <a href="https://wa.me/5515981503380" target="_blank" className='about-btn'>CONTRATE AGORA</a>
         </div>
       </div>
       <div className="last-job container">
