@@ -1,8 +1,8 @@
 import './style.css';
-import Whatsapp from '../../assets/whatsapp.svg';
-import Instagram from '../../assets/instagram.svg';
-import Youtube from '../../assets/youtube.svg';
-import Facebook from '../../assets/facebook.svg';
+import Whatsapp from '/assets/whatsapp.svg';
+import Instagram from '/assets/instagram.svg';
+import Youtube from '/assets/youtube.svg';
+import Facebook from '/assets/facebook.svg';
 const Footer = () => {
   return (
     <footer className='footer' id='contact'>

@@ -1,7 +1,7 @@
 .about {
   background:
     linear-gradient(to bottom, rgba(46, 46, 46, 0.8) 50%, rgba(46, 46, 46, 1) 100%),
-    url('/src/assets/bg-about.png') no-repeat center top;
+    url('/assets/bg-about.png') no-repeat center top;
   background-size: 100% auto;
 }
 
@@ -52,7 +52,7 @@
 
 @media (max-width: 1000px) {
   .about {
-    background: linear-gradient(to bottom, rgba(46, 46, 46, 0.8) 20%, rgba(46, 46, 46, 1) 40%), url('/src/assets/bg-about.png') no-repeat center top;
+    background: linear-gradient(to bottom, rgba(46, 46, 46, 0.8) 20%, rgba(46, 46, 46, 1) 40%), url('/assets/bg-about.png') no-repeat center top;
     background-size: 100% auto;
   }
 
@@ -63,7 +63,7 @@
 
 @media (max-width: 800px) {
   .about {
-    background: linear-gradient(to bottom, rgba(46, 46, 46, 0.8)30%, rgba(46, 46, 46, 1) 40%), url('/src/assets/bg-about.png') no-repeat center top;
+    background: linear-gradient(to bottom, rgba(46, 46, 46, 0.8)30%, rgba(46, 46, 46, 1) 40%), url('/assets/bg-about.png') no-repeat center top;
     background-size: 100% auto;
   }
 
@@ -78,7 +78,7 @@
 
 @media (max-width: 600px) {
   .about {
-    background: linear-gradient(to bottom, rgba(46, 46, 46, 0.8) 20%, rgba(46, 46, 46, 1) 40%), url('/src/assets/bg-about.png') no-repeat center top;
+    background: linear-gradient(to bottom, rgba(46, 46, 46, 0.8) 20%, rgba(46, 46, 46, 1) 40%), url('/assets/bg-about.png') no-repeat center top;
     background-size: 100% auto;
   }
 
@@ -98,7 +98,7 @@
 
 @media (max-width: 500px) {
   .about {
-    background: linear-gradient(to bottom, rgba(46, 46, 46, 0.8) 5%, rgba(46, 46, 46, 1) 40%), url('/src/assets/bg-about.png') no-repeat center top;
+    background: linear-gradient(to bottom, rgba(46, 46, 46, 0.8) 5%, rgba(46, 46, 46, 1) 40%), url('/assets/bg-about.png') no-repeat center top;
     background-size: 100% auto;
   }
 

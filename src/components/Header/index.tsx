@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Logo from '../../assets/logo-perdidos.svg';
+import Logo from '/assets/logo-perdidos.svg';
 import './style.css';
 import { IoClose, IoMenuSharp } from 'react-icons/io5';
 const Header = () => {
@@ -20,7 +20,7 @@ const Header = () => {
             <a className='nav-menu-item' href="#releases">Lançamentos</a>
           </li>
           <li>
-            <a className='midia-kit-btn' href="/src/assets/midia-kit.pdf" download="midia-kit.pdf">Mídia Kit</a>
+            <a className='midia-kit-btn' href="/assets/midia-kit.pdf" download="midia-kit.pdf">Mídia Kit</a>
           </li>
           <li>
             <a className='nav-menu-item' href='#contact'>Contato</a>
@@ -45,7 +45,7 @@ const Header = () => {
               <a className='nav-menu-item' href="#releases">Lançamentos</a>
             </li>
             <li>
-              <a className='midia-kit-btn' href="/src/assets/midia-kit.pdf" download="midia-kit.pdf">Mídia Kit</a>
+              <a className='midia-kit-btn' href="/assets/midia-kit.pdf" download="midia-kit.pdf">Mídia Kit</a>
             </li>
             <li>
               <a className='nav-menu-item' href='#contact'>Contato</a>
