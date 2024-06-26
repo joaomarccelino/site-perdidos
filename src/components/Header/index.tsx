@@ -26,7 +26,7 @@ const Header = () => {
             <a className='nav-menu-item' href='#contact'>Contato</a>
           </li>
         </ul>
-        <button className='icon-btn' onClick={handleShowMobileMenu}>
+        <button className='icon-btn mobile-btn' onClick={handleShowMobileMenu}>
           {
             showMobileMenu ?
               <IoClose color="var(--g2)" size={30} />

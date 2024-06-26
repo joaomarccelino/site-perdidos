@@ -40,9 +40,16 @@
   transition: opacity 0.3s ease, visibility 0s linear 0.3s;
 }
 
+.icon-btn.mobile-btn {
+  display: none;
+}
+
 @media (max-width: 800px) {
   .nav-menu {
     display: none;
+  }
+  .icon-btn.mobile-btn {
+    display: initial;
   }
 }
 
