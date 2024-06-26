@@ -1,0 +1,79 @@
+.about {
+  background:
+    linear-gradient(rgba(37, 36, 35, 0.5), rgba(37, 36, 35, 1)),
+    url('/src/assets/bg-about.png') no-repeat center center;
+  background-size: cover;
+}
+
+.who-we-are.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 40px;
+  max-width: 560px;
+}
+
+.last-job.container {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.last-job-video {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.about-body-text {
+  color: var(--g2);
+  text-align: end;
+  line-height: 1.5;
+}
+
+.about-btn {
+  background-color: var(--gre);
+  border: none;
+  padding: 20px 120px;
+  font: 700 1rem/1.1 "Neue Machina", sans-serif;
+  color: var(--g1);
+  border-radius: 8px;
+}
+
+@media (max-width: 1250px) {
+  .last-job-video {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .last-job-video {
+    height: 500px;
+  }
+}
+
+@media (max-width: 800px) {
+  .last-job.container {
+    margin-top: 80px;
+  }
+  .last-job-video {
+    height: 400px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-text {
+    align-items: center;
+    gap: 30px;
+  }
+  .about-body-text {
+    text-align: start;
+  }
+  .last-job-video {
+    height: 300px;
+  }
+}

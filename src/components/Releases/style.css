@@ -1,0 +1,17 @@
+.releases.container {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.releases-area {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (max-width: 1000px) {
+  .releases-area {
+    flex-direction: column;
+  }
+}
