@@ -74,8 +74,8 @@ a:hover {
 
 @font-face {
   font-family: 'Neue Machina';
-  src: url('NeueMachina-Light.woff2') format('woff2'),
-      url('NeueMachina-Light.woff') format('woff');
+  src: url('/assets/NeueMachina-Light.woff2') format('woff2'),
+      url('/assets/NeueMachina-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -83,8 +83,8 @@ a:hover {
 
 @font-face {
   font-family: 'Neue Machina';
-  src: url('NeueMachina-Regular.woff2') format('woff2'),
-      url('NeueMachina-Regular.woff') format('woff');
+  src: url('/assets/NeueMachina-Regular.woff2') format('woff2'),
+      url('/assets/NeueMachina-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -92,8 +92,8 @@ a:hover {
 
 @font-face {
   font-family: 'Neue Machina';
-  src: url('NeueMachina-Ultrabold.woff2') format('woff2'),
-      url('NeueMachina-Ultrabold.woff') format('woff');
+  src: url('/assets/NeueMachina-Ultrabold.woff2') format('woff2'),
+      url('/assets/NeueMachina-Ultrabold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
