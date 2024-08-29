@@ -2,22 +2,37 @@
   position: relative;
   width: 100%;
   max-width: 1440px;
-  height: 400px; /* Defina a altura fixa desejada */
+  height: 600px;
   margin: auto;
   overflow: hidden;
   background-color: var(--g13);
 }
 
 .slider-content {
-  position: relative;
+  position: absolute; /* Posiciona todos os slides um sobre o outro */
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 100%; /* Garanta que o contêiner ocupe toda a altura do slider */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  opacity: 0; /* Começa como invisível */
+  transform: scale(1.05); /* Escala inicial para efeito de entrada */
+  z-index: 0; /* Coloca todos os slides atrás */
+}
+
+.slider-content.active {
+  opacity: 1; /* Slide ativo fica visível */
+  transform: scale(1); /* Escala normal */
+  z-index: 1; /* Coloca o slide ativo na frente */
 }
 
 .slider-image {
   width: 100%;
-  height: 100%; /* Faça a imagem ocupar todo o espaço do contêiner */
-  object-fit: contain; /* Ajuste a imagem para cobrir o contêiner sem distorção */
+  height: 100%;
+  object-fit: cover;
   display: block;
 }
 
@@ -41,6 +56,7 @@
   border: none;
   padding: 10px;
   cursor: pointer;
+  z-index: 10;
 }
 
 .slider-button-left {
@@ -49,4 +65,19 @@
 
 .slider-button-right {
   right: 10px;
+}
+
+@media (max-width: 768px) {
+  .slider {
+    height: 300px;
+  }
+
+  .slider-description {
+    font-size: 0.875rem;
+    padding: 15px 10px;
+  }
+
+  .slider-button {
+    padding: 8px;
+  }
 }

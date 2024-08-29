@@ -15,7 +15,7 @@ const About = () => {
       </div>
       <div className="last-job container">
         <h2 className='sec-title'>último trabalho</h2>
-        <iframe className='last-job-video' width="1160" height="630" src="https://www.youtube.com/embed/6pC_5mXunnU?si=3S30HMr55SFxiOpG" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+        <iframe className='last-job-video' width="1160" height="630" src="https://www.youtube.com/embed/uyiDKT_9lEg?si=1io4dGOMjuIn4z5A" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
       </div>
     </section>
   )

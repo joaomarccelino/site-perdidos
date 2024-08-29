@@ -13,8 +13,8 @@ const Releases = () => {
       link: "https://open.spotify.com/intl-pt/album/3L6V1Can3ThZN2Djkc7A9y?si=4gt5QUvWQS6sr5txT5Ixdw"
     },
     {
-      name: "Carlinhos - Ijexá",
-      link: "https://open.spotify.com/intl-pt/album/7ippEckqHdgFGHMONRbUOh?si=NcYFZpzHQlu2lkENI8i9lw"
+      name: "EP - Ao vivo no Solana",
+      link: "https://open.spotify.com/intl-pt/album//6sB8MC8J5YOz9k3Az7FFDn?si=ToqQA1xJRFO0Q9yc4o2Ylg"
     }
   ]
 

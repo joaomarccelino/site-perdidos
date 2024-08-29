@@ -1,21 +1,16 @@
 import ImageSlider from '../ImageSlider';
 import './style.css';
-import Catedral from '/public/assets/catedral.jpeg';
-import FestaJunina from '/public/assets/festa-junina.jpeg';
-import FicaFatec from '/public/assets/fica-fatec.jpeg';
+import Macacas from '/public/assets/MACACAS.jpeg';
+import FestadaUva from '/public/assets/FESTADAUVA.jpeg';
 const LastShow = () => {
   const images = [
     {
-      image: Catedral,
-      description: 'Show Catedral - 2023',
+      image: Macacas,
+      description: 'Macaca Bikers - 2024',
     },
     {
-      image: FestaJunina,
-      description: 'Show Festa Junina de Votorantim - 2023',
-    },
-    {
-      image: FicaFatec,
-      description: 'Fica Fatec - 2023',
+      image: FestadaUva,
+      description: 'Festa da Uva - 2024',
     },
   ];
   return (
