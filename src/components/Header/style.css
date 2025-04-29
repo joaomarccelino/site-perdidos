@@ -21,7 +21,7 @@
 }
 
 .midia-kit-btn {
-  color: var(--ora);
+  color: var(--yel);
   font-weight: 700;
 }
 
@@ -30,7 +30,7 @@
   top: 55px;
   left: -200px; 
   background-color: var(--g10);
-  border: 1px solid #ccc;
+  border: 1px solid var(--g4);
   padding: 20px;
   width: 200px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);

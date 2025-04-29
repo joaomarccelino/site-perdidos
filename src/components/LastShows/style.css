@@ -1,8 +1,49 @@
 .container.last-shows {
   text-align: center;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .last-shows h2 {
   margin-bottom: 40px;
+}
+
+.card-show {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.show-description {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  line-height: 1.8;
+  color: #f5f5f5;
+  background-color: #111;
+  border-left: 14px solid #FEA900; 
+  box-shadow: 0 0 20px rgba(255, 221, 87, 0.1);
+  border-radius: 0.5rem  0   0 0.5rem;
+  text-align: justify;
+  padding-top: auto;
+  padding-bottom: auto;
+}
+
+
+@media (max-width: 800px) {
+  .card-show {
+    flex-direction: column;
+  }
+  .show-description {
+    max-width: none;
+    margin: 0 auto;
+    border: none;
+    border-top: 14px solid #FEA900; 
+    box-shadow: 0 0 20px rgba(255, 221, 87, 0.1);
+    border-radius: 0.5rem  0.5rem 0 0;
+    text-align: justify;
+  }
+}
+@media (max-width: 600px) {
+  .container.last-shows {
+    margin-top: 30px;
+  }
 }
